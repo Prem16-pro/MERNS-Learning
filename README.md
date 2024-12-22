@@ -87,15 +87,15 @@ This repository is open-source and available under the MIT License. See the [LIC
 
 ### Projects to Look Out For:
 
-- **Project 1: Todo App**
+- **Project 1: Todo App (Pending)**
   - Built with React on the frontend, Node/Express on the backend, and MongoDB for storage.
   - Features: Add, update, delete, and mark tasks as complete.
 
-- **Project 2: Blog Website**
+- **Project 2: Blog Website (Pending)**
   - A blogging platform built using the MERN stack.
   - Features: User authentication, creating and posting blogs, commenting system.
 
-- **Project 3: E-commerce Store**
+- **Project 3: E-commerce Store (Pending)**
   - A fully functional e-commerce website built with the MERN stack.
   - Features: Product catalog, user authentication, cart management, and checkout functionality.
 

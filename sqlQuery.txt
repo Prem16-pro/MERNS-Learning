@@ -1,0 +1,5 @@
+create table htmlForm (s_id serial primary key, s_name varchar(50) not null , s_prn varchar(50) unique not null);
+
+drop table htmlForm;
+
+select * from htmlForm;

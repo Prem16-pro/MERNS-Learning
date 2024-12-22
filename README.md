@@ -1,5 +1,5 @@
 
-# MERN-Learning
+# MERNS-Learning
 
 Welcome to the **MERNS-Learning** repository! This repository contains a collection of individual projects that I have built while learning the MERN stack (MongoDB, Express, React, Node.js).
 

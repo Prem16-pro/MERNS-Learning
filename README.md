@@ -1,7 +1,7 @@
 
 # MERN-Learning
 
-Welcome to the **MERN-Learning** repository! This repository contains a collection of individual projects that I have built while learning the MERN stack (MongoDB, Express, React, Node.js).
+Welcome to the **MERNS-Learning** repository! This repository contains a collection of individual projects that I have built while learning the MERN stack (MongoDB, Express, React, Node.js).
 
 Here, I will showcase the different projects and applications I have created, demonstrating the power and versatility of the MERN stack. Each project will be stored in its own folder for easy access and understanding.
 
@@ -13,6 +13,8 @@ The projects in this repository primarily utilize the following technologies:
 - **Express.js**: Web framework for Node.js used to build the backend.
 - **React.js**: Frontend library for building user interfaces.
 - **Node.js**: JavaScript runtime for building the backend of the application.
+- **PostgreSQL**: Relational database management system used for storing and managing structured data.
+
 
 Additionally, some projects may include other tools and technologies such as:
 

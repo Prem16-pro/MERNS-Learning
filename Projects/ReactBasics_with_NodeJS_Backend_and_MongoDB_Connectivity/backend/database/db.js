@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
+
+const dbUri = process.env.MONGODBURI;
+
 const dbConnect = async () =>{
-    await mongoose.connect('mongodb+srv://fieldrentals69:8MWJfMaObxn4KSUc@cluster0.yrdwq.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster0');
+    await mongoose.connect(dbUri);
 }
 
 

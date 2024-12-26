@@ -1,0 +1,21 @@
+1. CREATE REACT APP AND RUNNING IT 
+ npm create vite@latest my-app --template react 
+ cd my-app
+ npm install
+ npm run dev
+
+2. Installing bootstrap
+ npm install bootstrap
+ import 'bootstrap/dist/css/bootstrap.min.css'; ---App.jsx
+
+3. Installing react-router
+ npm install react-router-dom
+ 
+
+4. Creating products page using card and useState
+5. Creating login form UI
+6. Login form usestate and if else conditioning
+7. Products fetching
+ 
+
+

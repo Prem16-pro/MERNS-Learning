@@ -1,0 +1,36 @@
+/* Make the body take full height of the page */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.footer {
+  background-color: #f3f4f6;
+  padding: 1rem 0;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

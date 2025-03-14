@@ -1,0 +1,45 @@
+.Navbar {
+    position: sticky;
+    top: 0;  /* This is required for sticky positioning */
+    background-color: white; /* Optional to ensure background is visible */
+    z-index: 1;  /* Make sure it's above other elements */
+    display: flex;
+    padding: 1em;
+    border-bottom-style: solid;
+    box-shadow: 20em;
+}
+
+.Navbar_MH {
+  display: flex;
+  margin: 0px 78em 0 0;
+  gap: 1em;
+}
+
+.Navbar_MHeader button{
+  font-size: 32px;
+  background: none;
+  border: none;
+  margin: 2px 0 0 0;    
+}
+
+
+.Navbar_MButtons {
+  gap: 1em;
+}
+
+.Navbar_MButtons button {
+  background: none;
+  border: none;
+  margin: 1em 0 0 0;
+}
+
+.Navbar_MButtons {
+  display: flex;
+}
+
+.Navbar_Login button {
+  background: none;
+  border: none;
+  margin: 1em 0 0 0;
+}
+

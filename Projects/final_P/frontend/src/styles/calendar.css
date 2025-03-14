@@ -1,0 +1,135 @@
+/* Container for the whole calendar */
+.calendar-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header with previous and next buttons */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.calendar-button {
+  color: #3b82f6;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.calendar-button:hover {
+  color: #1d4ed8;
+}
+
+/* Month and year header */
+.calendar-month-year {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Grid container for calendar days */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+}
+
+/* Each weekday name (Sun, Mon, etc.) */
+.calendar-day-of-week {
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Individual day box */
+.calendar-day {
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Highlight today's date */
+.calendar-day.today {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/* Highlight event dates */
+.calendar-day.event {
+  background-color: #f59e0b;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Empty cells for alignment of first day of the month */
+.empty-day {
+  padding: 0.5rem;
+}
+
+/* Add Task Button */
+.add-task-button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-task-button:hover {
+  background-color: #45a049;
+}
+
+/* Container for task list */
+.task-list {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fafafa; /* Light background for the task box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 500px; /* Limit the width */
+  margin: 1rem auto; /* Centered on the page */
+}
+
+/* Individual task item */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid #e0e0e0; /* Border for each task */
+  border-radius: 6px; /* Rounded corners for task item */
+  background-color: white; /* White background for each task */
+}
+
+/* Styling for the delete button */
+.task button {
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
